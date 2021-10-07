@@ -28,7 +28,3 @@ get '/price' do
   
 end
 
-# examples of requests
-# http://localhost:4567/price?cpu=16&ram=1&hdd_type=sata&hdd_capacity=800
-# http://localhost:4567/price?cpu=16&ram=1&hdd_type=sata&hdd_capacity=800&dop[][type]=sata&dop[][value]=1000
-# http://localhost:4567/price?cpu=16&ram=1&hdd_type=sata&hdd_capacity=800&dop[][type]=sata&dop[][value]=1000&dop[][type]=sas&dop[][value]=1000
